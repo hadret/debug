@@ -3,7 +3,7 @@ LABEL org.opencontainers.image.source https://github.com/hadret/debug
 LABEL org.opencontainers.image.licenses=MIT
 
 RUN apt-get update -qq && \
-    apt-get install --no-install-recommends --yes \
+    DEBIAN_FRONTEND=noninteractive apt-get install -qq --no-install-recommends --yes \
                       apache2-utils \
                       atop \
                       bind9-dnsutils \

@@ -36,6 +36,7 @@ RUN apt-get update -qq && \
                       ipvsadm \
                       jq \
                       less \
+                      lsof \
                       man \
                       moreutils \
                       mtr-tiny \

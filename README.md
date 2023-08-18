@@ -62,7 +62,7 @@ There are different ways to connect -- if running container in privileged mode
 is not an option, there's always possibility to add specific [capabilities](https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabilities)
 instead (depending on what's needed, for example for `strace` probably
 `--cap-add` for `sys_admin` and `sys_ptrace` would be necessary). If network is
-of no interest the `--net` part can be omitted completely. If not tracing is
+of no interest the `--net` part can be omitted completely. If no tracing is
 necessary, then the attached command can be simplified even further:
 
 ```
@@ -73,3 +73,5 @@ More examples can be found in this great write-up:
 [How-to Debug a Running Docker Container from a Separate Container](https://rothgar.medium.com/how-to-debug-a-running-docker-container-from-a-separate-container-983f11740dc6).
 
 ## How to use with Kubernetes?
+
+<https://kubernetes.io/docs/tasks/debug/debug-application/debug-running-pod/>

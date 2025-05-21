@@ -7,7 +7,7 @@ RUN apt-get update -qq && \
   apache2-utils \
   atop \
   bind9-dnsutils \
-  bird \
+  bird2 \
   bpfcc-tools \
   bpftool \
   bpftrace \

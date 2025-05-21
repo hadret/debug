@@ -1,5 +1,5 @@
 FROM debian:sid
-LABEL org.opencontainers.image.source https://github.com/hadret/debug
+LABEL org.opencontainers.image.source=https://github.com/hadret/debug
 LABEL org.opencontainers.image.licenses=MIT
 
 RUN apt-get update -qq && \
